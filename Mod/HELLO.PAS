@@ -1,0 +1,14 @@
+PROGRAM HELLO; (*$GPCP*)(*$T-*)
+
+(*PROCEDURE InitGraph; EXTERNAL;
+PROCEDURE CloseGraph; EXTERNAL;
+PROCEDURE ClearDevice; EXTERNAL;
+PROCEDURE Palette (n: INTEGER); EXTERNAL;
+PROCEDURE SetPalette (c0, c1, c2, c3: INTEGER); EXTERNAL;
+PROCEDURE PutPixel (x, y, color: INTEGER); EXTERNAL;*)
+PROCEDURE PutSpr (x, y, spr: INTEGER); EXTERNAL;
+
+BEGIN
+  WRITELN ('helloworld');
+  PutSpr(100, 100, 100);
+END {HELLO}.
