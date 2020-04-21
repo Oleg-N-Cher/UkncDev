@@ -1,0 +1,21 @@
+﻿Полезные ссылки:
+
+Эмулятор RT-11 для консоли Windows
+https://zx-pk.ru/threads/24755-emulyator-rt-11.html
+
+Эмулятор УКНЦ
+https://zx-pk.ru/threads/6257-emulyator-uknts.html?p=1048945#post1048945
+https://github.com/nzeemin/ukncbtl
+
+RT-11 DSK Total Commander wcx plugin
+https://zx-pk.ru/threads/11015-rt-11-dsk-total-commander-wcx-plugin.html
+
+OMSI PASCAL-1 RT11 V1.1G
+https://zx-pk.ru/threads/10718-soft-dlya-dvk-pdp11.html?p=544006#post544006
+
+Компилятор Си
+http://hobot.pdp-11.ru/ukdwk_archive/ukncbtlwebcomplekt/Other/VAMOS_C_BOOT/
+https://www.phantom.sannata.org/viewtopic.php?t=31098
+
+Графический редактор для БК/УКНЦ
+https://zx-pk.ru/threads/29643-portirovanie-igry-quot-last-mission-quot-na-uknts.html?p=1006449&viewfull=1#post1006449

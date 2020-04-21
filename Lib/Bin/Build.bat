@@ -20,6 +20,8 @@ DEL /Q %1.PAS
 ..\..\Bin\rt11.exe RUN PASDWK CG006.PAS CG006.MAC
 ..\..\Bin\rt11.exe RUN PASDWK CG007.PAS CG007.MAC
 ..\..\Bin\rt11.exe RUN PASDWK CG008.PAS CG008.MAC
+..\..\Bin\rt11.exe RUN PASDWK CG009.PAS CG009.MAC
+..\..\Bin\rt11.exe RUN PASDWK CG010.PAS CG010.MAC
 
 :: MACRO/LIST:DK:
 FOR %%i IN (%2???.MAC) DO ..\..\Bin\rt11.exe MACRO %%i
@@ -28,6 +30,8 @@ IF EXIST %1.OBJ DEL /Q %1.OBJ
 ..\..\Bin\rt11.exe RUN LIBR %1=CG001,CG002,CG003,CG004,CG005,CG006
 ..\..\Bin\rt11.exe LIBR %1 CG007
 ..\..\Bin\rt11.exe LIBR %1 CG008
+..\..\Bin\rt11.exe LIBR %1 CG009
+..\..\Bin\rt11.exe LIBR %1 CG010
 
 ::..\..\Bin\rt11.exe LIBR/C %1 CG001
 IF EXIST %1.OBJ COPY /B /Y %1.OBJ ..\..\Obj >NUL

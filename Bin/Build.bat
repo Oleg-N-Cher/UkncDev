@@ -6,7 +6,7 @@ EXIT
 
 :XDev
 
-SET Lib=CGLIB
+SET Lib=CGLIB,CRT
 
 CD ..\Obj
 IF EXIST %1.MAC DEL /Q %1.MAC
